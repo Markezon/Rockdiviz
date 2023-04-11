@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -7,17 +8,37 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    /* font-family: 'Libre Baskerville', sans-serif; */
 }
 
 .container {
-    width: 1140px;
+    width: 1152px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 32px;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     margin: 0ch
 }
 
+
+@import 'blocks/header';
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/menu';
@@ -26,6 +47,13 @@ p {
 @import 'blocks/footer';
 @import 'blocks/policy';
 @import 'blocks/modal';
+@import 'blocks/human';
+@import 'blocks/forest';
+@import 'blocks/partners';
+@import 'blocks/info';
+@import 'blocks/work';
+
 @import 'blocks/media';
+
 
 

@@ -1,0 +1,40 @@
+.work {
+    min-height: 630px;
+    background-color: #000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        margin-top: 142px;
+        width: 315px;
+        min-height: 270px;
+        color: #fff;
+    }
+    &__title {
+        font-family: 'Libre Baskerville', sans-serif;
+        font-size: 36px;
+        line-height: 52px;
+        letter-spacing: 1.2px;
+        color: #FAFAFA;
+    }
+    &__text {
+        margin-top: 43px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FAFAFA;
+    }
+    &__btn {
+        margin-top: 37px;
+        width: 143px;
+        height: 52px;
+        background: #00665F;
+        border-radius: 80px;
+    }
+    &__img {
+        margin-top: 155px;
+        width: 461px;
+        height: 342px;
+        object-fit: cover;
+    }
+}

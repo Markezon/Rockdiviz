@@ -1,0 +1,25 @@
+.partners {
+    &__wrapper {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__text {
+        font-size: 11px;
+        line-height: 67px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: rgba(53, 83, 98, 0.6);
+    }
+    a {
+        text-decoration: none;
+        color: rgba(53, 83, 98, 0.6);
+    }
+    a:visited {
+        color: rgba(53, 83, 98, 0.6);
+    }
+    a:active {
+        color: rgba(53, 83, 98, 0.6);
+    }
+}   
