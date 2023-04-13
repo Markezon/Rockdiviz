@@ -62,40 +62,9 @@ menu.addEventListener('click', (e) => {
 	}
 });
 
-new WOW().init();
 
 
-
-/* $(document).ready(function(){
-
-
-  //scroll
-
-  $(window).scroll(function() {
-		if ($(this).scrollTop() > 1000) {
-			$('.pageup').fadeIn();
-		} else {
-			$('.pageup').fadeOut();
-		}
-	});
-	
-	$("a[href^='#']").click(function(){
-		const _href = $(this).attr("href");
-		$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-		return false;
-	});
-
-	$("a[href^='#']").click(function(){
-		const _href = $(this).attr("href");
-		$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-		return false;
-	});
-
-	
-
-}); */
-
-/* $(document).ready(function(){
+$(document).ready(function(){
 	
 	// Smooth scroll and pageup
 
@@ -114,7 +83,7 @@ new WOW().init();
     });
 
 	new WOW().init();
-}); */
+});
   
   
   
