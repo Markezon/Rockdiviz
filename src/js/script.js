@@ -1,3 +1,5 @@
+
+
 const menu = document.querySelector('.nav'),
 			burger = document.querySelector('.burger'),
 			mobileBack = document.querySelector('.mobile-back'),
@@ -60,9 +62,11 @@ menu.addEventListener('click', (e) => {
 	}
 });
 
+new WOW().init();
 
 
-$(document).ready(function(){
+
+/* $(document).ready(function(){
 
 
   //scroll
@@ -87,7 +91,30 @@ $(document).ready(function(){
 		return false;
 	});
 
-});
+	
+
+}); */
+
+/* $(document).ready(function(){
+	
+	// Smooth scroll and pageup
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 1600) {
+			$('.pageup').fadeIn();
+		} else {
+			$('.pageup').fadeOut();
+		}
+	});
+	//сам скрипт плавной прокрутки до секции, на которую ведет локальная ссылка, работает для всех ссылок, начинающихся на #
+	$("a[href^='#']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
+
+	new WOW().init();
+}); */
   
   
   
